@@ -1,0 +1,24 @@
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__image {
+    margin: 2rem;
+  }
+  &__text {
+    margin: 2rem;
+    align-self: flex-start;
+  }
+  &__answers {
+    width: 100%;
+  }
+  &__answer {
+    width: 100%;
+    margin: {
+      left: 2rem;
+      bottom: .5rem;
+      right: 2rem;
+    };
+  }
+}
